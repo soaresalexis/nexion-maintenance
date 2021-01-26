@@ -1,0 +1,85 @@
+body { 
+    margin: 50px;
+    background: url(/assets/img/background.png) no-repeat center fixed #1a1a1a; 
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+.main {
+    text-align: center;
+}
+
+.logo {
+    animation: beat 2s infinite alternate;
+}
+
+@keyframes beat{
+	to { transform: scale(0.9); }
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-family : 'Rubik', sans-serif;
+    font-weight: 200;
+    font-size: 48px;
+}
+
+.button {
+    background: rgb(153,80,179);
+    background: linear-gradient(0deg, rgba(153,80,179,1) 10%, rgba(242,127,252,1) 90%);
+}
+
+
+.social {
+    width: 200px;
+    color: white;
+    font-size: 100px;
+    padding: 25px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.social:hover {
+    opacity:1
+}
+
+footer{
+    background:rgb(29, 29, 29);
+    color: #fff;
+    position:fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+    padding: 25px;
+    text-align: center;
+    }
+    
+.nexionv4 {
+    text-decoration: none;
+    
+}
+
+.nexionv4:hover {
+    color: rgba(191, 99, 214, 0.616);
+}
+
+span a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+}
+
+span a:hover {
+    color: #a1a1a1;
+}
